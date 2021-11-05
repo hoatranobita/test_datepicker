@@ -63,7 +63,7 @@ app.layout = html.Div([
                 clearable=True,
                 searchable=True)],width={'size':2,"offset":0,'order':1}),
 
-                    dbc.Col([html.H5('Branch Code',className='text-center'),
+        dbc.Col([html.H5('Customer Code',className='text-center'),
         dcc.Dropdown(
                 id='filter_dropdown_2',placeholder="Please select customer code",
                 options=[{'label':cu, 'value':cu} for cu in customers],
